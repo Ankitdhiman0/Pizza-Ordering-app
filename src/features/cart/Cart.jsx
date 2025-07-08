@@ -27,7 +27,7 @@ function Cart() {
         ))}
       </ul>
 
-      <div className="mt-6 flex flex-col sm:flex-row sm:space-x-2 space-y-2 sm:space-y-0">
+      <div className="mt-6 flex flex-col sm:flex-row sm:space-x-2 space-y-2 sm:space-y-0 text-center">
         <Button to="/order/new" type="primary" className="w-full sm:w-auto">
           Order pizzas
         </Button>
