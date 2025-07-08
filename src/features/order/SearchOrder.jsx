@@ -15,7 +15,7 @@ function SearchOrder() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex justify-center sm:justify-start"
+      className="flex justify-center sm:justify-start md:me-[12em]"
     >
       <input
         placeholder="Search order #"

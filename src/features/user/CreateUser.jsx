@@ -18,10 +18,7 @@ function CreateUser() {
   }
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="flex flex-col items-center px-4 py-6 text-center sm:items-start sm:px-0 sm:text-left"
-    >
+    <form onSubmit={handleSubmit} className="">
       <p className="mb-4 text-sm text-stone-600 md:text-base">
         👋 Welcome! Please start by telling us your name:
       </p>
